@@ -1,0 +1,13 @@
+{
+    "name": "Q-Tune",
+    "version": "1.0.0",
+    "new_install_prompt_erase": false,
+    "builds": [
+        {
+            "chipFamily": "ESP32",
+            "parts": [{
+                "path": "q-tune.bin", "offset": 0
+            }]
+        }
+    ]
+}
