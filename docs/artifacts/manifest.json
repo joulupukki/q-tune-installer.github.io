@@ -6,10 +6,20 @@
     "builds": [
         {
             "chipFamily": "ESP32",
-            "parts": [{
-                "path": "merged-q-tune.bin",
-                "offset": 0
-            }]
+            "parts": [
+                {
+                    "path": "q-tune.bin",
+                    "offset": "0x10000"
+                },
+                {
+                    "path": "bootloader.bin",
+                    "offset": "0x1000"
+                },
+                {
+                    "path": "partition-table.bin",
+                    "offset": "0x8000"
+                }
+            ]
         }
     ]
 }
