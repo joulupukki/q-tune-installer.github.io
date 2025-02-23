@@ -1,6 +1,6 @@
 {
     "name": "q-tune-installer",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "A web installer for the q-tune project.",
     "main": "index.js",
     "scripts": {
