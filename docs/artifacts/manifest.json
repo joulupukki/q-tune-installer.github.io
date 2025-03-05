@@ -1,25 +1,25 @@
 {
-    "name": "Q-Tune",
-    "version": "1.0.6",
-    "new_install_skip_erase": true,
-    "new_install_prompt_erase": false,
-    "builds": [
+  "name": "Q-Tune",
+  "version": "1.0.6",
+  "new_install_skip_erase": true,
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
         {
-            "chipFamily": "ESP32",
-            "parts": [
-                {
-                    "path": "q-tune-1.0.6.bin",
-                    "offset": "0x10000"
-                },
-                {
-                    "path": "bootloader.bin",
-                    "offset": "0x1000"
-                },
-                {
-                    "path": "partition-table.bin",
-                    "offset": "0x8000"
-                }
-            ]
+          "path": "q-tune-1.0.6.bin",
+          "offset": "0x10000"
+        },
+        {
+          "path": "bootloader.bin",
+          "offset": "0x1000"
+        },
+        {
+          "path": "partition-table.bin",
+          "offset": "0x8000"
         }
-    ]
+      ]
+    }
+  ]
 }
