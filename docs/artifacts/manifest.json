@@ -5,7 +5,7 @@
   "new_install_prompt_erase": false,
   "builds": [
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "ESP32-S3",
       "parts": [
         {
           "path": "q-tune-2.0.0.bin",
